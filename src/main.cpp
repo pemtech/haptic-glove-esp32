@@ -11,7 +11,7 @@
 
 BluetoothSerial SerialBT;
 
-uint16_t send_data[] = {4095, 1000, 0, 1995, 4095};
+uint16_t send_data[] = {4095, 1001, 0, 1995, 4095};
 size_t send_size = sizeof(send_data);
 uint8_t recv_data[5] = {0}; // initialises all elements to zero
 
